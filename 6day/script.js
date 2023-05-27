@@ -5,7 +5,7 @@ const congelados = []
 
 const resposta = prompt('você deseja adicionar uma comida na lista de compras?')
 
-if (resposta == 'sim') {
+if (resposta === 'sim') {
     while (true) {
         const comida = prompt('qual comida você quer inserir?').toLowerCase()
         const categoria = prompt('em qual categoria essa comida se encaixa? opções: laticinios, frutas, doces, congelados')
